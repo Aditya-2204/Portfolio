@@ -1,0 +1,57 @@
+h1{color: black;
+margin-left: 42.5%;}
+
+a:link{
+    color:cadetblue;
+}
+a:visited{
+    color: coral;
+}
+.web2 a{
+    margin-left: 50px;
+}
+.web2{
+    padding-right: 50px;
+}
+.web{
+    background-color: #008000;
+    display: flex;
+    justify-content: space-between;
+}
+.web3{
+    position: relative;
+    margin-bottom: 50px;
+}
+.web3 p{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.web3:hover p{
+    opacity: 1;
+}
+.web3:hover img{
+    opacity: 0.33;
+}
+.web *{border: solid;}
+.Games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.platforms{
+    display:flex;
+    justify-content: flex-end;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+h2, p{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+p {font-size: 30px;}
